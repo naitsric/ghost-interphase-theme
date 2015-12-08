@@ -13,6 +13,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <link rel="stylesheet" href="{{asset "css/animate.css"}}" />
+    <style>
+        .wow:first-child {
+            visibility: hidden;
+        }
+    </style>
 
     {{! Styles'n'Scripts }}
     <!--[if lte IE 8]><script src="{{asset "css/ie/html5shiv.js"}}"></script><![endif]-->
@@ -21,7 +27,6 @@
     <script src="{{asset "js/skel-layers.min.js"}}"></script>
     <script src="{{asset "js/wow.min.js"}}"></script>
     <script src="{{asset "js/init.js"}}"></script>
-    <link rel="stylesheet" href="{{asset "css/animate.css"}}" />
     <noscript>
         <link rel="stylesheet" href="{{asset "css/skel.css"}}" />
         <link rel="stylesheet" href="{{asset "css/style.css"}}" />
