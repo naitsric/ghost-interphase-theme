@@ -9,28 +9,40 @@
 
 <!-- Banner -->
 <section id="banner" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
-    <h2>{{@blog.description}}</h2>
+    <h2 class="wow flipInX">{{@blog.description}}</h2>
 </section>
 
 <!-- One -->
 <section id="one" class="wrapper style1 align-center">
     <div class="container">
-        <header>
-            <h2>Consectetur adipisicing elit</h2>
-            <p>Lorem ipsum dolor sit amet adipisicing elit. Delectus consequatur sed tempus.</p>
+        <header class="wow bounceInRight">
+            <h2>Diseñamos proyectos, Construimos Realidades y Alegrando Hogares</h2>
         </header>
         <div class="row 200%">
-            <section class="wow bounceInUp 4u 12u$(small)">
+            <section class="wow wow bounceInLeft 4u 12u$(small)">
                 <i class="icon big rounded fa-clock-o"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+                <h2>Misión</h2>
+                <p>
+                    Suministrar encofrados metálicos de calidad para el mercado de la contrucción, ofreciendo un producto industrializado de excelente calidad, contribuyendo al desarrollo social y economico del país.
+                </p>
             </section>
-            <section class="wow bounceInLeft 4u 12u$(small)">
+            <section class="wow bounceInDown 4u 12u$(small)">
                 <i class="icon big rounded fa-comments"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime molestiae.</p>
+                <h2>Visión</h2>
+                <p>
+                    Nos vemos como una empres de reconocido prestigio a nivel nacional e internacional solida en el suministro de moldes Metálicos para vaciado de concreto,
+                    contando con un talendo humano altamente calificados, líderes en seguridad industrial, salud ocupacional y medio ambiente,
+                    y de eficiente gestón competitiva, porque etamos comprometidos con el servicio al cliente, con el bienestar social y con el desarrollo y progreso del país.
+                </p>
             </section>
-            <section class="wow bounceInUp 4u$ 12u$(small)">
+            <section class="wow bounceInRight 4u$ 12u$(small)">
                 <i class="icon big rounded fa-user"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
+                <h2>Politica de calidad</h2>
+                <p>
+                    Suministrar enfocados metálicos para vaciado de concreto, contando con un equipo humano comprometido
+                    con el mejoracmiento continuo en todas las actividades de la empresa, teniendo en cuenta la preservación
+                    del medio ambiente, para satisfacer los requerimientos del sector de la contrucción.
+                </p>
             </section>
         </div>
     </div>
@@ -39,10 +51,6 @@
 {{! The main content area on the homepage }}
 <section id="two" class="wrapper style2 align-center">
     <div class="container">
-        <header>
-            <h2>Portfolio</h2>
-            <p>Recently finished projects.</p>
-        </header>
         <div class="row">
             {{! The tag below includes the post loop - partials/loop.hbs }}
             {{> "loop"}}
