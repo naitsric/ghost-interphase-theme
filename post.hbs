@@ -6,7 +6,7 @@
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
 
-<header id="header" class="wow flipInX main-header post-head">
+<header id="header" class="main-header post-head">
     <h1>
         <a href="{{@blog.url}}">{{@blog.title}}</a>
     </h1>
@@ -17,12 +17,12 @@
     <div class="container {{post_class}}">
 
         <header class="major">
-            <h2>{{title}}</h2>
+            <h2 wow flipInX >{{title}}</h2>
             <p><time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}</p>
         </header>
 
         {{#if image}}
-            <a href="#" class="image fit"><img src="{{image}}" alt="" /></a>
+            <a href="#" class="wow flipInX image fit"><img src="{{image}}" alt="" /></a>
         {{/if}}
 
         {{content}}
