@@ -241,7 +241,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4dac71;
+			border-color: #00a64a;
 			box-shadow: 0 0 0 1px #4dac71;
 		}
 
@@ -345,16 +345,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #3ba666;
-			border-color: #3ba666;
+			background: #00a64a;
+			border-color: #00a64a;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4dac71;
-			box-shadow: 0 0 0 1px #4dac71;
+			border-color: #00a64a;
+			box-shadow: 0 0 0 1px #00a64a;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1001,12 +1001,12 @@
 	}
 
 		.wrapper.style1 {
-			background-color: #3ba666;
-			-moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+			background-color: #00a64a;
+			-moz-background-image: linear-gradient(60deg, #00ad4d 50%, #00a64a 50%);
+			-webkit-background-image: linear-gradient(60deg, #00ad4d 50%, #00a64a 50%);
+			-o-background-image: linear-gradient(60deg, #00ad4d 50%, #00a64a 50%);
+			-ms-background-image: linear-gradient(60deg, #00ad4d 50%, #00a64a 50%);
+			background-image: linear-gradient(60deg, #00ad4d 50%, #00a64a 50%);
 			color: #ffffff;
 		}
 
